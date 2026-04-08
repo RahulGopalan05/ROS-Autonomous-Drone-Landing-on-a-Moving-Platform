@@ -1,0 +1,60 @@
+[0.358s] Invoking command in '/home/rahul/Desktop/ROS-6S/src/drone_landing': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rahul/Desktop/ROS-6S/build/drone_landing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_landing build --build-base /home/rahul/Desktop/ROS-6S/build/drone_landing/build install --record /home/rahul/Desktop/ROS-6S/build/drone_landing/install.log --single-version-externally-managed install_data
+[0.483s] running egg_info
+[0.483s] creating ../../build/drone_landing/drone_landing.egg-info
+[0.483s] writing ../../build/drone_landing/drone_landing.egg-info/PKG-INFO
+[0.483s] writing dependency_links to ../../build/drone_landing/drone_landing.egg-info/dependency_links.txt
+[0.484s] writing entry points to ../../build/drone_landing/drone_landing.egg-info/entry_points.txt
+[0.484s] writing requirements to ../../build/drone_landing/drone_landing.egg-info/requires.txt
+[0.484s] writing top-level names to ../../build/drone_landing/drone_landing.egg-info/top_level.txt
+[0.484s] writing manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+[0.484s] reading manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build
+[0.485s] creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib
+[0.485s] creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+[0.485s] copying drone_landing/platform_mover.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+[0.486s] copying drone_landing/state_estimator.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+[0.486s] copying drone_landing/__init__.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+[0.486s] copying drone_landing/landing_controller.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+[0.486s] running install
+[0.486s] running install_lib
+[0.486s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+[0.486s] copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/platform_mover.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+[0.486s] copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/state_estimator.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+[0.486s] copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/__init__.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+[0.486s] copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/landing_controller.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+[0.486s] byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/platform_mover.py to platform_mover.cpython-310.pyc
+[0.487s] byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/state_estimator.py to state_estimator.cpython-310.pyc
+[0.487s] byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/__init__.py to __init__.cpython-310.pyc
+[0.487s] byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/landing_controller.py to landing_controller.cpython-310.pyc
+[0.488s] running install_data
+[0.488s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index/packages
+[0.489s] copying resource/drone_landing -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index/packages
+[0.489s] copying package.xml -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/launch
+[0.489s] copying launch/simulation_launch.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/launch
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/worlds
+[0.489s] copying worlds/landing.world -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/worlds
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+[0.489s] copying models/quadrotor/model.config -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+[0.489s] copying models/quadrotor/model.sdf -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+[0.489s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+[0.490s] copying models/landing_platform/model.config -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+[0.490s] copying models/landing_platform/model.sdf -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+[0.490s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/rviz
+[0.490s] copying rviz/config.rviz -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/rviz
+[0.490s] creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/config
+[0.490s] copying config/params.yaml -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/config
+[0.490s] running install_egg_info
+[0.491s] Copying ../../build/drone_landing/drone_landing.egg-info to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing-1.0.0-py3.10.egg-info
+[0.491s] running install_scripts
+[0.500s] Installing landing_controller script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+[0.501s] Installing platform_mover script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+[0.501s] Installing state_estimator script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+[0.501s] writing list of installed files to '/home/rahul/Desktop/ROS-6S/build/drone_landing/install.log'
+[0.512s] Invoked command in '/home/rahul/Desktop/ROS-6S/src/drone_landing' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/rahul/Desktop/ROS-6S/build/drone_landing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_landing build --build-base /home/rahul/Desktop/ROS-6S/build/drone_landing/build install --record /home/rahul/Desktop/ROS-6S/build/drone_landing/install.log --single-version-externally-managed install_data

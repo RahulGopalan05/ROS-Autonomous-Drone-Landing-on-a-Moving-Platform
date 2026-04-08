@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/drone_landing/drone_landing.egg-info
+writing ../../build/drone_landing/drone_landing.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_landing/drone_landing.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_landing/drone_landing.egg-info/entry_points.txt
+writing requirements to ../../build/drone_landing/drone_landing.egg-info/requires.txt
+writing top-level names to ../../build/drone_landing/drone_landing.egg-info/top_level.txt
+writing manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_landing/drone_landing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build
+creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib
+creating /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+copying drone_landing/platform_mover.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+copying drone_landing/state_estimator.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+copying drone_landing/__init__.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+copying drone_landing/landing_controller.py -> /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing
+running install
+running install_lib
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/platform_mover.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/state_estimator.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/__init__.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+copying /home/rahul/Desktop/ROS-6S/build/drone_landing/build/lib/drone_landing/landing_controller.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing
+byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/platform_mover.py to platform_mover.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/state_estimator.py to state_estimator.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing/landing_controller.py to landing_controller.cpython-310.pyc
+running install_data
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index/packages
+copying resource/drone_landing -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/ament_index/resource_index/packages
+copying package.xml -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/launch
+copying launch/simulation_launch.py -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/launch
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/worlds
+copying worlds/landing.world -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/worlds
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+copying models/quadrotor/model.config -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+copying models/quadrotor/model.sdf -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/quadrotor
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+copying models/landing_platform/model.config -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+copying models/landing_platform/model.sdf -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/models/landing_platform
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/rviz
+copying rviz/config.rviz -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/rviz
+creating /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/config
+copying config/params.yaml -> /home/rahul/Desktop/ROS-6S/install/drone_landing/share/drone_landing/config
+running install_egg_info
+Copying ../../build/drone_landing/drone_landing.egg-info to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/python3.10/site-packages/drone_landing-1.0.0-py3.10.egg-info
+running install_scripts
+Installing landing_controller script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+Installing platform_mover script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+Installing state_estimator script to /home/rahul/Desktop/ROS-6S/install/drone_landing/lib/drone_landing
+writing list of installed files to '/home/rahul/Desktop/ROS-6S/build/drone_landing/install.log'

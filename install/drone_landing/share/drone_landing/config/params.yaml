@@ -1,0 +1,39 @@
+# ===== Autonomous Drone Landing — Parameter File =====
+
+platform_mover:
+  ros__parameters:
+    amplitude_x: 2.0         # metres – X swing
+    amplitude_y: 1.5         # metres – Y swing
+    frequency_x: 0.1         # Hz
+    frequency_y: 0.15        # Hz
+    platform_height: 0.025   # metres above ground (half slab thickness)
+    update_rate: 50.0        # Hz
+
+state_estimator:
+  ros__parameters:
+    update_rate: 50.0        # Hz
+
+landing_controller:
+  ros__parameters:
+    # PID gains — horizontal (X/Y)
+    pid_xy_kp: 3.0
+    pid_xy_ki: 0.05
+    pid_xy_kd: 0.8
+    # PID gains — vertical (Z)
+    pid_z_kp: 1.2
+    pid_z_ki: 0.0
+    pid_z_kd: 0.5
+    # Velocity limits
+    max_horizontal_vel: 3.0   # m/s
+    max_vertical_vel: 1.0     # m/s
+    # Mission parameters
+    cruise_altitude: 3.0      # m – altitude during TRACKING phase
+    alignment_threshold: 0.5  # m – XY error to consider "aligned"
+    align_hold_time: 1.5      # s – how long alignment must hold before descent
+    descent_speed: 0.3        # m/s – DESCENDING phase
+    final_descent_speed: 0.10 # m/s – LANDING phase
+    landing_height: 0.08      # m – height above platform → LANDED
+    update_rate: 50.0         # Hz
+    spawn_x: 0.0
+    spawn_y: 0.0
+    spawn_z: 5.0

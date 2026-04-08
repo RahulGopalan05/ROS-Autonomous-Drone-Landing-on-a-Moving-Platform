@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="quadrotor">
+    <static>false</static>
+    <link name="base_link">
+      <gravity>false</gravity>
+      <inertial>
+        <mass>1.5</mass>
+        <inertia>
+          <ixx>0.035</ixx>
+          <iyy>0.035</iyy>
+          <izz>0.06</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <!-- Central body -->
+      <collision name="body_collision">
+        <geometry>
+          <box><size>0.18 0.18 0.08</size></box>
+        </geometry>
+      </collision>
+      <visual name="body_visual">
+        <geometry>
+          <box><size>0.18 0.18 0.08</size></box>
+        </geometry>
+        <material>
+          <ambient>0.2 0.2 0.2 1</ambient>
+          <diffuse>0.3 0.3 0.3 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Front-right arm (red) -->
+      <visual name="arm_fr">
+        <pose>0.13 -0.13 0 0 0 0.785</pose>
+        <geometry>
+          <box><size>0.24 0.02 0.02</size></box>
+        </geometry>
+        <material>
+          <ambient>0.6 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+      <visual name="prop_fr">
+        <pose>0.2 -0.2 0.025 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.08</radius><length>0.005</length></cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 0.6</ambient>
+          <diffuse>0.2 0.2 0.2 0.6</diffuse>
+        </material>
+      </visual>
+
+      <!-- Front-left arm (red) -->
+      <visual name="arm_fl">
+        <pose>0.13 0.13 0 0 0 -0.785</pose>
+        <geometry>
+          <box><size>0.24 0.02 0.02</size></box>
+        </geometry>
+        <material>
+          <ambient>0.6 0.1 0.1 1</ambient>
+          <diffuse>0.8 0.1 0.1 1</diffuse>
+        </material>
+      </visual>
+      <visual name="prop_fl">
+        <pose>0.2 0.2 0.025 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.08</radius><length>0.005</length></cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 0.6</ambient>
+          <diffuse>0.2 0.2 0.2 0.6</diffuse>
+        </material>
+      </visual>
+
+      <!-- Back-right arm (blue) -->
+      <visual name="arm_br">
+        <pose>-0.13 -0.13 0 0 0 -0.785</pose>
+        <geometry>
+          <box><size>0.24 0.02 0.02</size></box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.6 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+      <visual name="prop_br">
+        <pose>-0.2 -0.2 0.025 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.08</radius><length>0.005</length></cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 0.6</ambient>
+          <diffuse>0.2 0.2 0.2 0.6</diffuse>
+        </material>
+      </visual>
+
+      <!-- Back-left arm (blue) -->
+      <visual name="arm_bl">
+        <pose>-0.13 0.13 0 0 0 0.785</pose>
+        <geometry>
+          <box><size>0.24 0.02 0.02</size></box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.6 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+      <visual name="prop_bl">
+        <pose>-0.2 0.2 0.025 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.08</radius><length>0.005</length></cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 0.6</ambient>
+          <diffuse>0.2 0.2 0.2 0.6</diffuse>
+        </material>
+      </visual>
+
+      <!-- Landing legs -->
+      <visual name="leg_fl">
+        <pose>0.1 0.1 -0.06 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.005</radius><length>0.08</length></cylinder>
+        </geometry>
+        <material><diffuse>0.4 0.4 0.4 1</diffuse></material>
+      </visual>
+      <visual name="leg_fr">
+        <pose>0.1 -0.1 -0.06 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.005</radius><length>0.08</length></cylinder>
+        </geometry>
+        <material><diffuse>0.4 0.4 0.4 1</diffuse></material>
+      </visual>
+      <visual name="leg_bl">
+        <pose>-0.1 0.1 -0.06 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.005</radius><length>0.08</length></cylinder>
+        </geometry>
+        <material><diffuse>0.4 0.4 0.4 1</diffuse></material>
+      </visual>
+      <visual name="leg_br">
+        <pose>-0.1 -0.1 -0.06 0 0 0</pose>
+        <geometry>
+          <cylinder><radius>0.005</radius><length>0.08</length></cylinder>
+        </geometry>
+        <material><diffuse>0.4 0.4 0.4 1</diffuse></material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,5 @@
+[console_scripts]
+landing_controller = drone_landing.landing_controller:main
+platform_mover = drone_landing.platform_mover:main
+state_estimator = drone_landing.state_estimator:main
+
