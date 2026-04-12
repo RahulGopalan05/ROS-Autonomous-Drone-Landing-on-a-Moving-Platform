@@ -90,18 +90,4 @@ rqt_graph
 | state_estimator     | Extracts poses from Gazebo, publishes TF  |
 | landing_controller  | PID controller + state machine for landing|
 
-## Troubleshooting
 
-**Gazebo won't start / nodes can't find services:**
-```bash
-killall -9 gzserver gzclient
-pkill -9 -f drone_landing
-# Then relaunch
-```
-
-**Build errors after code changes:**
-```bash
-rm -rf build/ install/ log/
-colcon build
-source install/setup.bash
-```
